@@ -4,6 +4,17 @@
   "devDependencies": {
     "lerna": "3.13.1"
   },
+  "dependencies": {
+    "@types/jest": "24.0.11",
+    "@types/node": "11.13.0",
+    "@types/react": "16.8.10",
+    "@types/react-dom": "16.8.3",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-scripts": "2.1.8",
+    "tslib": "1.9.3",
+    "typescript": "3.4.1"
+  },
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist",
     "start": "lerna run start --stream",
